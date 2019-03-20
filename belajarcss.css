@@ -1,5 +1,21 @@
 body {background:url(https://github.com/SMAKBO/tugas-labkom-2019-11-2-alan-turing/blob/master/abs.png?raw=true
 	) 
 }
-
+#layout{
+	background:#fff;
+	width:980px;
+	margin:auto;
+	text-align:left;
+	padding:2px;
+}
+#header{
+	width:100%;
+	height:130px;
+	position:relative;
+}
+.header{
+	width:100%;
+	height:130px;
+}
+	
 
