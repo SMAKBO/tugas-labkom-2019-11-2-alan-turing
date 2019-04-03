@@ -1,73 +1,194 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="belajarcss.css">
-  <title>Alan Turing</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <div id="layout">
-    <div id="header">
-    <img src="https://github.com/SMAKBO/tugas-labkom-2019-11-2-alan-turing.github.io/blob/master/header.jpg?raw=true" class="header">
-    <div/>
-  <div/>
-    
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="aboutus.html">About Us</a>
-    </div>
-    <ul class="nav navbar-nav">
-       <li><a href="index.html">Home</a></li>
-      <li><a href="aman.html">Penemuan Alan Turing</a></li>
-      <li><a href="anyop.html">Pekerjaan dan Penelitian</a></li>
-      <li><a href="nazwa.html">Fakta-Fakta </a></li>
-      <li><a href="kyla.html">Kehidupan Awal dan Pendidikan</a></li>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-railway-webfont.css" />
+        <link rel="stylesheet" href="assets/css/linearicons-web-font.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+
+        <nav id="main-nav">
+            <ul >
+       <li><a href="index.html"><span>Home</span></a></li>
+      <li><a href="aman.html"><span>Penemuan Alan Turing</span></a></li>
+      <li><a href="anyop.html"><span>Pekerjaan dan Penelitian</span></a></li>
+      <li><a href="nazwa.html"><span>Fakta-Fakta </span></a></li>
+      <li><a href="kyla.html"><span>Kehidupan Awal dan Pendidikan</span></a></li>
     </ul>
-    <form class="navbar-form navbar-left" action="/action_page.php">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search" name="search">
-        <div class="input-group-btn">
-          <button class="btn btn-default" type="submit">
-            <i class="glyphicon glyphicon-search"></i>
-          </button>
-        </div>
-      </div>
-    </form>
-  </div>
-</nav>
+            <a href="#0" class="cd-close-menu">Close<span></span></a>
+        </nav>
 
-<div class="container">
+        <!--Home page style-->
+        <header id="home" class="home home-main-content">
+            <div class="overlay sections">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="div-menu">
+                            <header class="cd-header">
+                               
+                                <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
+                            </header>
+                        </div>
 
-</div>
-    <div id="runningtext">
-    <marquee behaviour="scroll" scrollamount="3" onmoseover="this.stop();" ommouseout="this.start();" direction="left">
-      Selamat Datang di Website Kami
-      </marquee>
-    </div>
 
-<div class="row">
-    <div class="thumbnail">
-        <img src="https://github.com/SMAKBO/tugas-labkom-2019-11-2-alan-turing/blob/master/220px-Alan_Turing_photo.jpg?raw=true" alt="Lights" style="width:25%">
-        <div class="caption">
-          <p>Lahir: 23 Juni 1912
-Maida Vale, London, Inggris</p>
-          <p>Meninggal: 7 Juni 1954 (umur 41)
-            Wilmslow, Cheshire, Inggris</p>
+                        <div class="home-wrapper">
+                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                <div class="home-content">
+                                    <h1>ALAN TURING</h1>
+                                    <p>#Mathematics &nbsp; #Computer Science &nbsp; #Logic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="about" class="sections3">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="about-wrapper">
+
+                         <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-photo">
+                                <img src="https://github.com/SMAKBO/tugas-labkom-2019-11-2-alan-turing.github.io/blob/master/assets/images/poto.jpg?raw=true" width="70%" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-content text-left">
+                                <h4> Hi, I’m Alan Turing im a scientist that built computer from England.</h4>
+<h5>I was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. I was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.I was widely considered to be the father of theoretical computer science and artificial intelligence</h5>
+                          
+                        </div>
+
+                    </div>
+                </div>  
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="features" class="sections lightbg">
+
+            <div class="heading-content text-center">
+                <h3>My Working Process</h1>
+                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            </div>
+
+            <div class="container text-center">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="features-wrapper">
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg design">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-screen"></i>
+                                    <h6><a href="#">Design</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg development">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-magic-wand"></i>
+                                    <h6><a href="#">development</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg testing">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-dinner"></i>
+                                    <h6><a href="#">Testing</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg launch">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-rocket"></i>
+                                    <h6><a href="#">Launch</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="experience" class="experience">
+            <div class="overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="experience-wrapper">
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="experience-content">
+
+                                    <h4>Biodata</h4>
+
+                                    <div class="content-details content-border">
+                                        <h5>
+
+<p>Lahir: 23 Juni 1912 Maida Vale, London, Inggris</p>
+<p>Meninggal: 7 Juni 1954 (umur 41) Wilmslow, Cheshire, Inggris</p>
 <p>Tempat tinggal : Britania Raya</p>
 <p>Kebangsaan : Inggris</p>
-<p>Almamater: University of Cambridge
-Princeton University
-Dikenal atas  Halting problem
-Turing machine
-Kriptanalisis Enigma
-Automatic Computing Engine
-Turing Award
-Turing Test</p>
+<p>Almamater:</p>
+<p>1.University of Cambridge</p>
+<p>2.Princeton University</p>
+<p>3.Dikenal atas  Halting problem</p>
+<p>4.Turing machine</p>
+<p>5.Kriptanalisis Enigma</p>
+<p>6.Automatic Computing Engine</p>
+<p>7.Turing Award</p>
+<p>8.Turing Test</p>
 <p>Penghargaan: Officer of the Order of the British Empire
 Fellow of the Royal Society
 Karier ilmiah</p>
@@ -77,13 +198,124 @@ National Physical Laboratory
 Government Code and Cypher School
 University of Cambridge</p>
 <p>Pembimbing doktoral: Alonzo Church</p>
-<p>Mahasiswa doktoral : Robin Gandy</p>
-        </div>
-  </div>
- 
-</body>
- 
-<div class="footer">
-  <p><a href="https://kylaananda.github.io/">Kyla</a> dan <a href="https://talithaadris63.github.io/">Tara</a> </p>
-</div>
-</html>
+<p>Mahasiswa doktoral : Robin Gandy</p> </h5>
+                                        
+                                    </div>
+
+                                  
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>  
+                    </div>
+                </div>
+            </div>       
+        </section>
+
+        <!-- Sections -->
+        <section id="portfolio" class="sections">
+            <div class="container">
+
+                <div class="heading-content text-center">
+                    <h3>My Latest Works</h3>
+                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="portfolio-wrapper2">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="portfolio-item width-img">
+                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="testimonial" class="lightbg">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="testimonial-wrapper sections4">
+
+                        <div class="col-md-5 col-sm-6 col-xs-12">
+                            <div class="testimonial-content text-left">
+
+                                <div class="testimonial-quote">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                                </div>
+
+                                <div class="singnature">
+                                    <img src="assets/images/signature.png" alt="Signature" />
+                                </div>
+
+                                <div class="regards-by">
+                                    <h5>Kyla Ananda Alifia</h5>
+                                    <p>Creative Designer, Levy</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-sm-6 col-xs-12">
+                            <div class="profile-photo">
+                                <img src="assets/images/man2.png" alt="testimonial" />
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+            </div> <!-- /container -->       
+        </section>
